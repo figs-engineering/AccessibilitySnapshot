@@ -33,10 +33,11 @@ let package = Package(
             url: "https://github.com/uber/ios-snapshot-test-case.git",
             .upToNextMajor(from: "8.0.0")
         ),
+
         .package(
             name: "SnapshotTesting",
-            url: "https://github.com/pointfreeco/swift-snapshot-testing.git",
-            .upToNextMajor(from: "1.8.0")
+            url: "https://github.com/tdrhq/swift-snapshot-testing.git",
+            .revisionItem("c15b65")
         ),
     ],
     targets: [
